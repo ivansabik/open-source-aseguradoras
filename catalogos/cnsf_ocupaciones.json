@@ -1,0 +1,302 @@
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc18c" }, "clave" : 1001, "descripcion" : "Estudiantes" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc18d" }, "clave" : 1002, "descripcion" : "Jubilado" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc18e" }, "clave" : 1003, "descripcion" : "Ninguno (incluye a los recién nacidos)" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc18f" }, "clave" : 1004, "descripcion" : "Amas de casa" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc190" }, "clave" : 1005, "descripcion" : "Otras" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc191" }, "clave" : 1111, "descripcion" : "Cultivo de granos y semillas oleaginosas (Rama)" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc192" }, "clave" : 1112, "descripcion" : "Cultivo de hortalizas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc193" }, "clave" : 1113, "descripcion" : "Cultivo de frutales y nueces" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc194" }, "clave" : 1114, "descripcion" : "Floricultura y cultivos en invernaderos y viveros" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc195" }, "clave" : 1119, "descripcion" : "Otros cultivos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc196" }, "clave" : 1121, "descripcion" : "Explotación de bovinos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc197" }, "clave" : 1122, "descripcion" : "Explotación de porcinos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc198" }, "clave" : 1123, "descripcion" : "Explotación avícola" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc199" }, "clave" : 1124, "descripcion" : "Explotación de ovinos y caprinos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc19a" }, "clave" : 1125, "descripcion" : "Acuicultura animal" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc19b" }, "clave" : 1129, "descripcion" : "Explotación de otros animales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc19c" }, "clave" : 1131, "descripcion" : "Silvicultura" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc19d" }, "clave" : 1132, "descripcion" : "Viveros forestales y recolección de productos forestales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc19e" }, "clave" : 1133, "descripcion" : "Tala de árboles" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc19f" }, "clave" : 1141, "descripcion" : "Pesca" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a0" }, "clave" : 1142, "descripcion" : "Caza y captura" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a1" }, "clave" : 1151, "descripcion" : "Servicios relacionados con la agricultura" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a2" }, "clave" : 1152, "descripcion" : "Servicios relacionados con la ganadería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a3" }, "clave" : 1153, "descripcion" : "Servicios relacionados con el aprovechamiento forestal" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a4" }, "clave" : 2111, "descripcion" : "Extracción de petróleo y gas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a5" }, "clave" : 2121, "descripcion" : "Minería de carbón mineral" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a6" }, "clave" : 2122, "descripcion" : "Minería de metales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a7" }, "clave" : 2123, "descripcion" : "Minería de minerales no metálicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a8" }, "clave" : 2131, "descripcion" : "Servicios relacionados con la minería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1a9" }, "clave" : 2211, "descripcion" : "Generación, transmisión y suministro de energía eléctrica" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1aa" }, "clave" : 2221, "descripcion" : "Captación, tratamiento y suministro de agua" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ab" }, "clave" : 2222, "descripcion" : "Suministro de gas por ductos al consumidor final" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ac" }, "clave" : 2361, "descripcion" : "Edificación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ad" }, "clave" : 2371, "descripcion" : "Construcción de obras para agua, electricidad, telecomunicaciones, petróleo y gas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ae" }, "clave" : 2372, "descripcion" : "Construcción de obras de urbanización y vías de comunicación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1af" }, "clave" : 2381, "descripcion" : "Trabajos especiales para la construcción" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b0" }, "clave" : 2382, "descripcion" : "Servicios relacionados con la construcción" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b1" }, "clave" : 3111, "descripcion" : "Elaboración de alimentos para animales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b2" }, "clave" : 3112, "descripcion" : "Molienda de granos y de semillas oleaginosas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b3" }, "clave" : 3113, "descripcion" : "Elaboración de azúcar, chocolates, dulces y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b4" }, "clave" : 3114, "descripcion" : "Conservación de frutas, verduras y guisos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b5" }, "clave" : 3115, "descripcion" : "Elaboración de productos lácteos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b6" }, "clave" : 3116, "descripcion" : "Matanza, empacado y procesamiento de carne de ganado y aves" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b7" }, "clave" : 3117, "descripcion" : "Preparación y envasado de pescados y mariscos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b8" }, "clave" : 3118, "descripcion" : "Elaboración de productos de panadería y tortillas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1b9" }, "clave" : 3119, "descripcion" : "Otras industrias alimentarias" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ba" }, "clave" : 3121, "descripcion" : "Industria de las bebidas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1bb" }, "clave" : 3122, "descripcion" : "Industria del tabaco" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1bc" }, "clave" : 3131, "descripcion" : "Preparación de fibras naturales, hilados e hilos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1bd" }, "clave" : 3132, "descripcion" : "Fabricación de telas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1be" }, "clave" : 3133, "descripcion" : "Acabado y recubrimiento de textiles" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1bf" }, "clave" : 3141, "descripcion" : "Confección de alfombras, blancos y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c0" }, "clave" : 3149, "descripcion" : "Confección de otros productos textiles, excepto prendas de vestir" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c1" }, "clave" : 3151, "descripcion" : "Tejido de prendas de vestir de punto" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c2" }, "clave" : 3152, "descripcion" : "Confección de prendas de vestir" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c3" }, "clave" : 3159, "descripcion" : "Confección de accesorios de vestir" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c4" }, "clave" : 3161, "descripcion" : "Curtido y acabado de cuero y piel" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c5" }, "clave" : 3162, "descripcion" : "Fabricación de calzado" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c6" }, "clave" : 3169, "descripcion" : "Fabricación de otros productos de cuero, piel y materiales sucedáneos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c7" }, "clave" : 3211, "descripcion" : "Aserrado y conservación de la madera" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c8" }, "clave" : 3212, "descripcion" : "Fabricación de laminados y aglutinados de madera" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1c9" }, "clave" : 3219, "descripcion" : "Fabricación de otros productos de madera" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ca" }, "clave" : 3221, "descripcion" : "Fabricación de celulosa, papel y cartón" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1cb" }, "clave" : 3222, "descripcion" : "Fabricación de productos de papel y cartón" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1cc" }, "clave" : 3231, "descripcion" : "Impresión e industrias conexas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1cd" }, "clave" : 3241, "descripcion" : "Fabricación de productos derivados del petróleo y del carbón" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ce" }, "clave" : 3251, "descripcion" : "Fabricación de productos químicos básicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1cf" }, "clave" : 3252, "descripcion" : "Fabricación de hules, resinas y fibras químicas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d0" }, "clave" : 3253, "descripcion" : "Fabricación de fertilizantes, pesticidas y otros agroquímicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d1" }, "clave" : 3254, "descripcion" : "Fabricación de productos farmacéuticos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d2" }, "clave" : 3255, "descripcion" : "Fabricación de pinturas, recubrimientos, adhesivos y selladores" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d3" }, "clave" : 3256, "descripcion" : "Fabricación de jabones, limpiadores y preparaciones de tocador" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d4" }, "clave" : 3259, "descripcion" : "Fabricación de otros productos químicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d5" }, "clave" : 3261, "descripcion" : "Fabricación de productos de plástico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d6" }, "clave" : 3262, "descripcion" : "Fabricación de productos de hule" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d7" }, "clave" : 3271, "descripcion" : "Fabricación de productos a base de arcillas y minerales refractarios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d8" }, "clave" : 3272, "descripcion" : "Fabricación de vidrio y productos de vidrio" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1d9" }, "clave" : 3273, "descripcion" : "Fabricación de cemento y productos de concreto" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1da" }, "clave" : 3274, "descripcion" : "Fabricación de cal, yeso y productos de yeso" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1db" }, "clave" : 3279, "descripcion" : "Fabricación de otros productos a base de minerales no metálicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1dc" }, "clave" : 3311, "descripcion" : "Industria básica del hierro y del acero" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1dd" }, "clave" : 3312, "descripcion" : "Fabricación de productos de hierro y acero" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1de" }, "clave" : 3313, "descripcion" : "Industria básica del aluminio" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1df" }, "clave" : 3314, "descripcion" : "Industrias básicas de otros metales no ferrosos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e0" }, "clave" : 3315, "descripcion" : "Moldeo por fundición de piezas metálicas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e1" }, "clave" : 3321, "descripcion" : "Fabricación de productos metálicos forjados y troquelados" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e2" }, "clave" : 3322, "descripcion" : "Fabricación de herramientas de mano sin motor y utensilios de cocina metálicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e3" }, "clave" : 3323, "descripcion" : "Fabricación de estructuras metálicas y productos de herrería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e4" }, "clave" : 3324, "descripcion" : "Fabricación de calderas, tanques y envases metálicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e5" }, "clave" : 3325, "descripcion" : "Fabricación de herrajes y cerraduras" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e6" }, "clave" : 3326, "descripcion" : "Fabricación de alambre, productos de alambre y resortes" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e7" }, "clave" : 3327, "descripcion" : "Maquinado de piezas metálicas y fabricación de tornillos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e8" }, "clave" : 3328, "descripcion" : "Recubrimientos y terminados metálicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1e9" }, "clave" : 3329, "descripcion" : "Fabricación de otros productos metálicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ea" }, "clave" : 3331, "descripcion" : "Fabricación de maquinaria y equipo para las actividades agropecuarias, para la construcción y para la industria extractiva" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1eb" }, "clave" : 3332, "descripcion" : "Fabricación de maquinaria y equipo para las industrias manufactureras, excepto la metalmecánica" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ec" }, "clave" : 3333, "descripcion" : "Fabricación de maquinaria y equipo para el comercio y los servicios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ed" }, "clave" : 3334, "descripcion" : "Fabricación de sistemas de aire acondicionado, calefacción y de refrigeración industrial y comercial" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ee" }, "clave" : 3335, "descripcion" : "Fabricación de maquinaria y equipo para la industria metalmecánica" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ef" }, "clave" : 3336, "descripcion" : "Fabricación de motores de combustión interna, turbinas y transmisiones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f0" }, "clave" : 3339, "descripcion" : "Fabricación de otra maquinaria y equipo para la industria en general" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f1" }, "clave" : 3341, "descripcion" : "Fabricación de computadoras y equipo periférico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f2" }, "clave" : 3342, "descripcion" : "Fabricación de equipo de comunicación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f3" }, "clave" : 3343, "descripcion" : "Fabricación de equipo de audio y de video" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f4" }, "clave" : 3344, "descripcion" : "Fabricación de componentes electrónicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f5" }, "clave" : 3345, "descripcion" : "Fabricación de instrumentos de navegación, medición, médicos y de control" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f6" }, "clave" : 3346, "descripcion" : "Fabricación y reproducción de medios magnéticos y ópticos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f7" }, "clave" : 3351, "descripcion" : "Fabricación de accesorios de iluminación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f8" }, "clave" : 3352, "descripcion" : "Fabricación de aparatos eléctricos de uso doméstico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1f9" }, "clave" : 3353, "descripcion" : "Fabricación de equipo de generación y distribución de energía eléctrica" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1fa" }, "clave" : 3359, "descripcion" : "Fabricación de otros equipos y accesorios eléctricos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1fb" }, "clave" : 3361, "descripcion" : "Fabricación de automóviles y camiones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1fc" }, "clave" : 3362, "descripcion" : "Fabricación de carrocerías y remolques" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1fd" }, "clave" : 3363, "descripcion" : "Fabricación de partes para vehículos automotores" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1fe" }, "clave" : 3364, "descripcion" : "Fabricación de equipo aeroespacial" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc1ff" }, "clave" : 3365, "descripcion" : "Fabricación de equipo ferroviario" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc200" }, "clave" : 3366, "descripcion" : "Fabricación de embarcaciones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc201" }, "clave" : 3369, "descripcion" : "Fabricación de otro equipo de transporte" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc202" }, "clave" : 3371, "descripcion" : "Fabricación de muebles, excepto de oficina y estantería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc203" }, "clave" : 3372, "descripcion" : "Fabricación de muebles de oficina y estantería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc204" }, "clave" : 3379, "descripcion" : "Fabricación de productos relacionados con los muebles" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc205" }, "clave" : 3391, "descripcion" : "Fabricación de equipo y material para uso médico, dental y para laboratorio" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc206" }, "clave" : 3399, "descripcion" : "Otras industrias manufactureras" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc207" }, "clave" : 4311, "descripcion" : "Comercio al por mayor de alimentos y abarrotes" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc208" }, "clave" : 4312, "descripcion" : "Comercio al por mayor de bebidas y tabaco" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc209" }, "clave" : 4321, "descripcion" : "Comercio al por mayor de productos textiles y calzado" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc20a" }, "clave" : 4331, "descripcion" : "Comercio al por mayor de productos farmacéuticos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc20b" }, "clave" : 4332, "descripcion" : "Comercio al por mayor de artículos de perfumería, joyería y otros accesorios de vestir" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc20c" }, "clave" : 4333, "descripcion" : "Comercio al por mayor de discos, juguetes y artículos deportivos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc20d" }, "clave" : 4334, "descripcion" : "Comercio al por mayor de artículos de papelería, libros, revistas y periódicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc20e" }, "clave" : 4335, "descripcion" : "Comercio al por mayor de electrodomésticos menores y aparatos de línea blanca" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc20f" }, "clave" : 4341, "descripcion" : "Comercio al por mayor de materias primas agropecuarias" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc210" }, "clave" : 4342, "descripcion" : "Comercio al por mayor de materias primas para la industria" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc211" }, "clave" : 4343, "descripcion" : "Comercio al por mayor de materiales de desecho" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc212" }, "clave" : 4351, "descripcion" : "Comercio al por mayor de maquinaria y equipo agropecuario, forestal y para la pesca" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc213" }, "clave" : 4352, "descripcion" : "Comercio al por mayor de maquinaria y equipo para la industria" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc214" }, "clave" : 4353, "descripcion" : "Comercio al por mayor de maquinaria y equipo para los servicios y para actividades comerciales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc215" }, "clave" : 4354, "descripcion" : "Comercio al por mayor de maquinaria, mobiliario y equipo de uso general" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc216" }, "clave" : 4361, "descripcion" : "Comercio al por mayor de camiones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc217" }, "clave" : 4371, "descripcion" : "Intermediación al por mayor" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc218" }, "clave" : 4372, "descripcion" : "Comercio al por mayor por medios masivos de comunicación y otros medios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc219" }, "clave" : 4611, "descripcion" : "Comercio al por menor de alimentos y abarrotes" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc21a" }, "clave" : 4612, "descripcion" : "Comercio al por menor de bebidas y tabaco" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc21b" }, "clave" : 4621, "descripcion" : "Comercio al por menor en tiendas de autoservicio" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc21c" }, "clave" : 4622, "descripcion" : "Comercio al por menor en tiendas departamentales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc21d" }, "clave" : 4631, "descripcion" : "Comercio al por menor de productos textiles, excepto ropa" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc21e" }, "clave" : 4632, "descripcion" : "Comercio al por menor de ropa y accesorios de vestir" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc21f" }, "clave" : 4633, "descripcion" : "Comercio al por menor de calzado" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc220" }, "clave" : 4641, "descripcion" : "Comercio al por menor de artículos para el cuidado de la salud" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc221" }, "clave" : 4651, "descripcion" : "Comercio al por menor de artículos de perfumería y joyería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc222" }, "clave" : 4652, "descripcion" : "Comercio al por menor de artículos para el esparcimiento" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc223" }, "clave" : 4653, "descripcion" : "Comercio al por menor de artículos de papelería, libros y periódicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc224" }, "clave" : 4659, "descripcion" : "Comercio al por menor en tiendas importadoras, tiendas de artesanías y de otros artículos de uso personal" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc225" }, "clave" : 4661, "descripcion" : "Comercio al por menor de muebles para el hogar y otros enseres domésticos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc226" }, "clave" : 4662, "descripcion" : "Comercio al por menor de computadoras, teléfonos y otros aparatos de comunicación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc227" }, "clave" : 4663, "descripcion" : "Comercio al por menor de artículos para la decoración de interiores" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc228" }, "clave" : 4664, "descripcion" : "Comercio al por menor de artículos usados" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc229" }, "clave" : 4671, "descripcion" : "Comercio al por menor de artículos de ferretería, tlapalería y vidrios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc22a" }, "clave" : 4681, "descripcion" : "Comercio al por menor de automóviles y camionetas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc22b" }, "clave" : 4682, "descripcion" : "Comercio al por menor de partes y refacciones para automóviles, camionetas y camiones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc22c" }, "clave" : 4683, "descripcion" : "Comercio al por menor de motocicletas y otros vehículos de motor" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc22d" }, "clave" : 4684, "descripcion" : "Comercio al por menor de combustibles, aceites y grasas lubricantes" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc22e" }, "clave" : 4691, "descripcion" : "Intermediación al por menor" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc22f" }, "clave" : 4692, "descripcion" : "Comercio al por menor por medios masivos de comunicación y otros medios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc230" }, "clave" : 4811, "descripcion" : "Transporte aéreo regular" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc231" }, "clave" : 4812, "descripcion" : "Transporte aéreo no regular" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc232" }, "clave" : 4821, "descripcion" : "Transporte por ferrocarril" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc233" }, "clave" : 4831, "descripcion" : "Transporte marítimo" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc234" }, "clave" : 4832, "descripcion" : "Transporte por aguas interiores" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc235" }, "clave" : 4841, "descripcion" : "Autotransporte de carga general" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc236" }, "clave" : 4842, "descripcion" : "Autotransporte de carga especializado" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc237" }, "clave" : 4851, "descripcion" : "Transporte colectivo de pasajeros urbano y suburbano" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc238" }, "clave" : 4852, "descripcion" : "Transporte de pasajeros interurbano y rural" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc239" }, "clave" : 4853, "descripcion" : "Servicio de taxis y limusinas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc23a" }, "clave" : 4854, "descripcion" : "Transporte escolar y de personal" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc23b" }, "clave" : 4855, "descripcion" : "Alquiler de autobuses con chofer" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc23c" }, "clave" : 4859, "descripcion" : "Otro transporte terrestre de pasajeros" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc23d" }, "clave" : 4861, "descripcion" : "Transporte de petróleo crudo por ductos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc23e" }, "clave" : 4862, "descripcion" : "Transporte de gas natural por ductos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc23f" }, "clave" : 4869, "descripcion" : "Transporte por ductos de otros productos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc240" }, "clave" : 4871, "descripcion" : "Transporte turístico por tierra" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc241" }, "clave" : 4872, "descripcion" : "Transporte turístico por agua" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc242" }, "clave" : 4879, "descripcion" : "Otro transporte turístico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc243" }, "clave" : 4881, "descripcion" : "Servicios relacionados con el transporte aéreo" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc244" }, "clave" : 4882, "descripcion" : "Servicios relacionados con el transporte por ferrocarril" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc245" }, "clave" : 4883, "descripcion" : "Servicios relacionados con el transporte por agua" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc246" }, "clave" : 4884, "descripcion" : "Servicios relacionados con el transporte por carretera" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc247" }, "clave" : 4885, "descripcion" : "Servicios de intermediación para el transporte de carga" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc248" }, "clave" : 4889, "descripcion" : "Otros servicios relacionados con el transporte" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc249" }, "clave" : 4911, "descripcion" : "Servicios postales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc24a" }, "clave" : 4921, "descripcion" : "Servicios de mensajería y paquetería foránea" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc24b" }, "clave" : 4922, "descripcion" : "Servicios de mensajería y paquetería local" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc24c" }, "clave" : 4931, "descripcion" : "Servicios de almacenamiento" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc24d" }, "clave" : 5111, "descripcion" : "Edición de periódicos, revistas, libros y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc24e" }, "clave" : 5112, "descripcion" : "Edición de software" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc24f" }, "clave" : 5121, "descripcion" : "Industria fílmica" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc250" }, "clave" : 5122, "descripcion" : "Industria de grabación del sonido" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc251" }, "clave" : 5131, "descripcion" : "Producción, transmisión y repetición de programas de radio y televisión" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc252" }, "clave" : 5132, "descripcion" : "Producción y distribución por suscripción de programas de televisión" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc253" }, "clave" : 5133, "descripcion" : "Otras telecomunicaciones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc254" }, "clave" : 5141, "descripcion" : "Suministro de información" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc255" }, "clave" : 5142, "descripcion" : "Procesamiento electrónico de información" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc256" }, "clave" : 5211, "descripcion" : "Banca central" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc257" }, "clave" : 5221, "descripcion" : "Banca múltiple" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc258" }, "clave" : 5222, "descripcion" : "Instituciones financieras de fomento económico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc259" }, "clave" : 5223, "descripcion" : "Uniones de crédito e instituciones de ahorro" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc25a" }, "clave" : 5224, "descripcion" : "Otras instituciones de intermediación crediticia y financiera no bursátil" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc25b" }, "clave" : 5225, "descripcion" : "Servicios relacionados con la intermediación crediticia" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc25c" }, "clave" : 5231, "descripcion" : "Compañías de transacciones en valores y divisas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc25d" }, "clave" : 5232, "descripcion" : "Bolsa de valores" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc25e" }, "clave" : 5233, "descripcion" : "Servicios de inversión e intermediación bursátil" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc25f" }, "clave" : 5241, "descripcion" : "Instituciones de seguros y fianzas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc260" }, "clave" : 5242, "descripcion" : "Servicios relacionados con los seguros y las fianzas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc261" }, "clave" : 5311, "descripcion" : "Alquiler sin intermediación de viviendas y otros inmuebles" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc262" }, "clave" : 5312, "descripcion" : "Inmobiliarias y corredores de bienes raíces" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc263" }, "clave" : 5313, "descripcion" : "Servicios relacionados con los servicios inmobiliarios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc264" }, "clave" : 5321, "descripcion" : "Alquiler de automóviles, camiones y otros transportes terrestres" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc265" }, "clave" : 5322, "descripcion" : "Alquiler de artículos para el hogar" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc266" }, "clave" : 5323, "descripcion" : "Centros generales de alquiler" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc267" }, "clave" : 5324, "descripcion" : "Alquiler de maquinaria y equipo industrial, comercial y de servicios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc268" }, "clave" : 5331, "descripcion" : "Servicios de alquiler de marcas registradas, patentes y franquicias" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc269" }, "clave" : 5411, "descripcion" : "Servicios legales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc26a" }, "clave" : 5412, "descripcion" : "Servicios de contabilidad, auditoría y servicios relacionados" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc26b" }, "clave" : 5413, "descripcion" : "Servicios de consultoría y diseño en arquitectura, ingeniería y actividades relacionadas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc26c" }, "clave" : 5414, "descripcion" : "Diseño especializado" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc26d" }, "clave" : 5415, "descripcion" : "Servicios de consultoría en computación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc26e" }, "clave" : 5416, "descripcion" : "Servicios de consultoría administrativa, científica y técnica" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc26f" }, "clave" : 5417, "descripcion" : "Servicios de investigación y desarrollo científicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc270" }, "clave" : 5418, "descripcion" : "Servicios de publicidad y actividades relacionadas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc271" }, "clave" : 5419, "descripcion" : "Otros servicios profesionales, científicos y técnicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc272" }, "clave" : 5511, "descripcion" : "Dirección de corporativos y empresas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc273" }, "clave" : 5611, "descripcion" : "Servicios de administración de negocios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc274" }, "clave" : 5612, "descripcion" : "Servicios integrados de mantenimiento y seguridad en instalaciones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc275" }, "clave" : 5613, "descripcion" : "Servicios de empleo" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc276" }, "clave" : 5614, "descripcion" : "Servicios de apoyo secretarial, fotocopiado, cobranza, investigación crediticia y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc277" }, "clave" : 5615, "descripcion" : "Agencias de viajes y servicios de reservaciones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc278" }, "clave" : 5616, "descripcion" : "Servicios de investigación, protección y seguridad" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc279" }, "clave" : 5617, "descripcion" : "Servicios de limpieza" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc27a" }, "clave" : 5619, "descripcion" : "Otros servicios de apoyo a los negocios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc27b" }, "clave" : 5621, "descripcion" : "Manejo de desechos y servicios de remediación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc27c" }, "clave" : 6111, "descripcion" : "Escuelas de educación básica, media y especial" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc27d" }, "clave" : 6112, "descripcion" : "Escuelas de educación postbachillerato no universitaria" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc27e" }, "clave" : 6113, "descripcion" : "Escuelas de educación superior" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc27f" }, "clave" : 6114, "descripcion" : "Escuelas comerciales, de computación y de capacitación para ejecutivos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc280" }, "clave" : 6115, "descripcion" : "Escuelas de oficios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc281" }, "clave" : 6116, "descripcion" : "Otros servicios educativos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc282" }, "clave" : 6117, "descripcion" : "Servicios de apoyo a la educación" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc283" }, "clave" : 6211, "descripcion" : "Consultorios médicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc284" }, "clave" : 6212, "descripcion" : "Consultorios dentales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc285" }, "clave" : 6213, "descripcion" : "Otros consultorios para el cuidado de la salud" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc286" }, "clave" : 6214, "descripcion" : "Centros para la atención de pacientes que no requieren hospitalización" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc287" }, "clave" : 6215, "descripcion" : "Laboratorios médicos y de diagnóstico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc288" }, "clave" : 6216, "descripcion" : "Servicios de enfermería a domicilio" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc289" }, "clave" : 6219, "descripcion" : "Servicios de ambulancias, de bancos de órganos y otros servicios auxiliares al tratamiento médico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc28a" }, "clave" : 6221, "descripcion" : "Hospitales generales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc28b" }, "clave" : 6222, "descripcion" : "Hospitales psiquiátricos y para el tratamiento por abuso de substancias" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc28c" }, "clave" : 6223, "descripcion" : "Hospitales de otras especialidades médicas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc28d" }, "clave" : 6231, "descripcion" : "Residencias con cuidados de enfermeras para enfermos convalecientes en rehabilitación, incurables y terminales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc28e" }, "clave" : 6232, "descripcion" : "Residencias para el cuidado de personas con problemas de retardo mental, salud mental y abuso de substancias" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc28f" }, "clave" : 6233, "descripcion" : "Asilos y otras residencias para el cuidado de ancianos y discapacitados" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc290" }, "clave" : 6239, "descripcion" : "Orfanatos y otras residencias de asistencia social" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc291" }, "clave" : 6241, "descripcion" : "Servicios de orientación y trabajo social" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc292" }, "clave" : 6242, "descripcion" : "Servicios comunitarios de alimentación, refugio y de emergencia" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc293" }, "clave" : 6243, "descripcion" : "Servicios de capacitación para el trabajo para personas desempleadas, subempleadas o discapacitadas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc294" }, "clave" : 6244, "descripcion" : "Guarderías" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc295" }, "clave" : 7111, "descripcion" : "Compañías y grupos de espectáculos artísticos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc296" }, "clave" : 7112, "descripcion" : "Deportistas y equipos deportivos profesionales y semiprofesionales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc297" }, "clave" : 7113, "descripcion" : "Promotores de espectáculos artísticos, deportivos y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc298" }, "clave" : 7114, "descripcion" : "Agentes y representantes de artistas, deportistas y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc299" }, "clave" : 7115, "descripcion" : "Artistas y técnicos independientes" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc29a" }, "clave" : 7121, "descripcion" : "Museos, sitios históricos, jardines botánicos y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc29b" }, "clave" : 7131, "descripcion" : "Parques con instalaciones recreativas y casas de juegos electrónicos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc29c" }, "clave" : 7132, "descripcion" : "Casinos, loterías y otros juegos de azar" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc29d" }, "clave" : 7139, "descripcion" : "Otros servicios recreativos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc29e" }, "clave" : 7211, "descripcion" : "Hoteles, moteles y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc29f" }, "clave" : 7212, "descripcion" : "Campamentos y albergues recreativos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a0" }, "clave" : 7213, "descripcion" : "Pensiones y casas de huéspedes, y departamentos y casas amueblados con servicios de hotelería" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a1" }, "clave" : 7221, "descripcion" : "Restaurantes con servicio de meseros" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a2" }, "clave" : 7222, "descripcion" : "Restaurantes de autoservicio y de comida para llevar" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a3" }, "clave" : 7223, "descripcion" : "Servicios de preparación de alimentos por encargo" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a4" }, "clave" : 7224, "descripcion" : "Centros nocturnos, bares, cantinas y similares" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a5" }, "clave" : 8111, "descripcion" : "Reparación y mantenimiento de automóviles y camiones" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a6" }, "clave" : 8112, "descripcion" : "Reparación y mantenimiento de equipo electrónico y de equipo de precisión" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a7" }, "clave" : 8113, "descripcion" : "Reparación y mantenimiento de maquinaria y equipo agropecuario, industrial, comercial y de servicios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a8" }, "clave" : 8114, "descripcion" : "Reparación y mantenimiento de artículos para el hogar y personales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2a9" }, "clave" : 8121, "descripcion" : "Salones y clínicas de belleza, baños públicos y bolerías" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2aa" }, "clave" : 8122, "descripcion" : "Lavanderías y tintorerías" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2ab" }, "clave" : 8123, "descripcion" : "Servicios funerarios y administración de cementerios" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2ac" }, "clave" : 8124, "descripcion" : "Estacionamientos y pensiones para automóviles" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2ad" }, "clave" : 8129, "descripcion" : "Servicios de revelado de fotografías y otros servicios personales" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2ae" }, "clave" : 8131, "descripcion" : "Asociaciones y organizaciones comerciales, laborales, profesionales y recreativas" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2af" }, "clave" : 8132, "descripcion" : "Asociaciones y organizaciones religiosas, políticas y civiles" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b0" }, "clave" : 8141, "descripcion" : "Hogares con empleados domésticos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b1" }, "clave" : 9311, "descripcion" : "Organos legislativos" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b2" }, "clave" : 9321, "descripcion" : "Administración pública general" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b3" }, "clave" : 9322, "descripcion" : "Actividades de regulación y desarrollo económico" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b4" }, "clave" : 9323, "descripcion" : "Mantenimiento de la seguridad, justicia y orden público" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b5" }, "clave" : 9324, "descripcion" : "Regulación de actividades de ecología y medio ambiente" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b6" }, "clave" : 9325, "descripcion" : "Regulación de actividades de bienestar social" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b7" }, "clave" : 9326, "descripcion" : "Regulación de actividades de relaciones exteriores" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b8" }, "clave" : 9331, "descripcion" : "Actividades de seguridad nacional" }
+{ "_id" : { "$oid" : "53baffa9bbb4ac7fec7dc2b9" }, "clave" : 9341, "descripcion" : "Organismos internacionales y extraterritoriales" }

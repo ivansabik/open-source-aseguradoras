@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "53bb006ebbb4ac7fec7dc459" }, "clave" : 1, "descripcion" : "Federal", "version" : 1 }
+{ "_id" : { "$oid" : "53bb006ebbb4ac7fec7dc45a" }, "clave" : 2, "descripcion" : "Estatal", "version" : 1 }
+{ "_id" : { "$oid" : "53bb006ebbb4ac7fec7dc45b" }, "clave" : 3, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb006ebbb4ac7fec7dc45c" }, "clave" : 4, "descripcion" : "Privado", "version" : 1 }

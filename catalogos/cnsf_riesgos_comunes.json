@@ -1,0 +1,15 @@
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc44a" }, "clave" : "a", "descripcion" : "Fiado que participa en el capital social de otro", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc44b" }, "clave" : "b", "descripcion" : "Fiados cuya administración dependa de una misma persona", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc44c" }, "clave" : "c", "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc44d" }, "clave" : "d", "descripcion" : "Fiados que formen parte de un grupo financiero", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc44e" }, "clave" : "e", "descripcion" : "Opciones a) y b)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc44f" }, "clave" : "f", "descripcion" : "Opciones a) y c)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc450" }, "clave" : "g", "descripcion" : "Opciones a) y d)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc451" }, "clave" : "h", "descripcion" : "Opciones a), b) y c)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc452" }, "clave" : "i", "descripcion" : "Opciones a), b) y d)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc453" }, "clave" : "j", "descripcion" : "Opciones b) y c)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc454" }, "clave" : "k", "descripcion" : "Opciones a) y b)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc455" }, "clave" : "l", "descripcion" : "Opciones b) y d)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc456" }, "clave" : "m", "descripcion" : "Opciones b), c) y b)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc457" }, "clave" : "n", "descripcion" : "Opciones c) y d)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0060bbb4ac7fec7dc458" }, "clave" : "o", "descripcion" : "Ninguno", "version" : 1 }

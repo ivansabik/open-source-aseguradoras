@@ -1,0 +1,89 @@
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6b4" }, "nivel1" : 100, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Total Activo", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6b5" }, "nivel1" : 110, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Inversiones", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6b6" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Valores y Operaciones con Productos Derivados", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6b7" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Valores", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6b8" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 1, "descripcion" : "Gubernamentales", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6b9" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 2, "descripcion" : "Empresas Privadas. Tasa Conocida", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ba" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 3, "descripcion" : "Empresas Privadas. Renta Variable", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6bb" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 4, "descripcion" : "Extranjeros", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6bc" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 5, "descripcion" : "Dividendos por Cobrar sobre Títulos de Capital", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6bd" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 6, "descripcion" : "Deterioro de Valores (-)", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6be" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 7, "descripcion" : "Inversiones en Valores dados en Préstamo", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6bf" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 1, "nivel4" : 8, "descripcion" : "Valores Restringidos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c0" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Operaciones con Productos Derivados", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c1" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 2, "nivel4" : 1, "descripcion" : "Prima Pagada de Contratos de Opciones", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c2" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 2, "nivel4" : 2, "descripcion" : "Aportaciones y Garantías de Operaciones con Derivados", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c3" }, "nivel1" : 110, "nivel2" : 1, "nivel3" : 2, "nivel4" : 3, "descripcion" : "Valor razonable (parte activa) al momento de la adquisición", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c4" }, "nivel1" : 110, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Deudor por Reporto", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c5" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Cartera de Crédito (Neto)", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c6" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Cartera de Crédito Vigente", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c7" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 1, "descripcion" : "Sobre Pólizas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c8" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 2, "descripcion" : "Créditos a la Vivienda", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6c9" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 3, "descripcion" : "Créditos Comerciales", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ca" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 4, "descripcion" : "Créditos Quirografarios", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6cb" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 5, "descripcion" : "Préstamos por Contratos de Reaseguro Financiero Otorgados", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6cc" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 1, "nivel4" : 6, "descripcion" : "Descuentos y Redescuentos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6cd" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Cartera de Crédito Vencida", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ce" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 1, "descripcion" : "Sobre Pólizas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6cf" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 2, "descripcion" : "Créditos a la Vivienda", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d0" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 3, "descripcion" : "Créditos Comerciales", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d1" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 4, "descripcion" : "Créditos Quirografarios", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d2" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 5, "descripcion" : "Préstamos por Contratos de Reaseguro Financiero Otorgados", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d3" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 2, "nivel4" : 6, "descripcion" : "Descuentos y Redescuentos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d4" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 3, "nivel4" : 0, "descripcion" : "Estimaciones Preventivas para Riesgo Crediticio", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d5" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 3, "nivel4" : 1, "descripcion" : "Créditos a la Vivienda", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d6" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 3, "nivel4" : 2, "descripcion" : "Créditos Comerciales", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d7" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 3, "nivel4" : 3, "descripcion" : "Créditos Quirografarios", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d8" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 3, "nivel4" : 4, "descripcion" : "Préstamos por Contratos de Reaseguro Financiero Otorgados", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6d9" }, "nivel1" : 110, "nivel2" : 3, "nivel3" : 3, "nivel4" : 5, "descripcion" : "Descuentos y Redescuentos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6da" }, "nivel1" : 110, "nivel2" : 4, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Inmobiliarias", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6db" }, "nivel1" : 110, "nivel2" : 4, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Total Inmuebles", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6dc" }, "nivel1" : 110, "nivel2" : 4, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Valuación Neta", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6dd" }, "nivel1" : 110, "nivel2" : 4, "nivel3" : 3, "nivel4" : 0, "descripcion" : "Depreciación (-)", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6de" }, "nivel1" : 120, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Inversiones para Obligaciones Laborales", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6df" }, "nivel1" : 130, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Disponibilidad", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e0" }, "nivel1" : 130, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Caja", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e1" }, "nivel1" : 130, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Bancos, Cuenta de Cheques", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e2" }, "nivel1" : 140, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Deudores", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e3" }, "nivel1" : 140, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Por Primas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e4" }, "nivel1" : 140, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Deudor por Prima por Subsidio Daños", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e5" }, "nivel1" : 140, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Adeudos a Cargo de Dependencias y Entidades de la Administración Pública Federal", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e6" }, "nivel1" : 140, "nivel2" : 4, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Primas por Cobrar de Fianzas Expedidas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e7" }, "nivel1" : 140, "nivel2" : 5, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Agentes y Ajustadores", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e8" }, "nivel1" : 140, "nivel2" : 5, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Agentes, Cuenta Corriente", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6e9" }, "nivel1" : 140, "nivel2" : 5, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Adeudos por Primas Cobradas No Reportadas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ea" }, "nivel1" : 140, "nivel2" : 5, "nivel3" : 3, "nivel4" : 0, "descripcion" : "Ajustadores, Cuenta Corriente", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6eb" }, "nivel1" : 140, "nivel2" : 6, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Documentos por Cobrar", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ec" }, "nivel1" : 140, "nivel2" : 7, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Deudores por Responsabilidades de Fianzas por Reclamaciones Pagadas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ed" }, "nivel1" : 140, "nivel2" : 7, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Deudores por Responsabilidades de Fianzas por Reclamaciones Pagadas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ee" }, "nivel1" : 140, "nivel2" : 7, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Provisiones de Fondos Recibidos de Particulares (-)", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ef" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Otros", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f0" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Deudores Diversos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f1" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Depósitos en Garantía", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f2" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 3, "nivel4" : 0, "descripcion" : "I.V.A. Pagado por Aplicar", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f3" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 4, "nivel4" : 0, "descripcion" : "Deudores por Intereses sobre Depósitos Recibidos en Garantía de Fianzas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f4" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 5, "nivel4" : 0, "descripcion" : "Matriz y Sucursales, Cuenta Corriente", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f5" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 6, "nivel4" : 0, "descripcion" : "Deudores por Servicios Análogos y Conexos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f6" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 7, "nivel4" : 0, "descripcion" : "Deudores por operaciones de coaseguro", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f7" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 7, "nivel4" : 1, "descripcion" : "Primas en Coaseguro (asegurados)", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f8" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 7, "nivel4" : 2, "descripcion" : "Siniestros pendientes por recuperar de coaseguro", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6f9" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 7, "nivel4" : 3, "descripcion" : "Gastos de de ajuste por operaciones de coaseguro", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6fa" }, "nivel1" : 140, "nivel2" : 8, "nivel3" : 7, "nivel4" : 4, "descripcion" : "Ingresos y gastos por recuperar de coaseguro", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6fb" }, "nivel1" : 140, "nivel2" : 9, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Estimación para Castigos (-)", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6fc" }, "nivel1" : 140, "nivel2" : 9, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Estimación para Castigos de Deudores por Primas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6fd" }, "nivel1" : 140, "nivel2" : 9, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Estimación para Castigos de Adeudos Diversos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6fe" }, "nivel1" : 140, "nivel2" : 9, "nivel3" : 3, "nivel4" : 0, "descripcion" : "Estimación para Castigos de Adeudos por Primas Cobradas No Reportadas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db6ff" }, "nivel1" : 150, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Reaseguradores y Reafianzadores", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db700" }, "nivel1" : 150, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Instituciones de Seguros y Fianzas", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db701" }, "nivel1" : 150, "nivel2" : 1, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Instituciones, Cuenta Corriente", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db702" }, "nivel1" : 150, "nivel2" : 1, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Comisiones por Cobrar del Reaseguro y Reafianzamiento Cedido", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db703" }, "nivel1" : 150, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Depósitos Retenidos", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db704" }, "nivel1" : 150, "nivel2" : 2, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Primas Retenidas por Reaseguro y Reafianzamiento Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db705" }, "nivel1" : 150, "nivel2" : 2, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Siniestros Retenidos por Reaseguro Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db706" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Importes Recuperables de Reaseguro", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db707" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Por Participación de Instituciones o Reaseguradores Extranjeros por riesgos en curso", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db708" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Por Participación de Instituciones o Reaseguradores Extranjeros por siniestros pendientes", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db709" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 3, "nivel4" : 0, "descripcion" : "Por Participación de Instituciones o Reaseguradores Extranjeros en la reserva de fianzas en vigor", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db70a" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 4, "nivel4" : 0, "descripcion" : "Por Participación de Reaseguradores por Salvamentos Pendientes de Venta por Reaseguro Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db70b" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 5, "nivel4" : 0, "descripcion" : "Por Participación de Reaseguradores en Siniestros Pagados de Contado, del Reaseguro Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe25bbb4ac7fec7db70c" }, "nivel1" : 150, "nivel2" : 3, "nivel3" : 6, "nivel4" : 0, "descripcion" : "Por Participación de Reafianzadoras por Reclamaciones Pagadas", "version" : 1 }

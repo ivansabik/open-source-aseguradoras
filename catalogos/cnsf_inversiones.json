@@ -1,0 +1,6 @@
+{ "_id" : { "$oid" : "53bafe85bbb4ac7fec7db892" }, "clave" : 1, "descripcion" : "Financiar la operación", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe85bbb4ac7fec7db893" }, "clave" : 2, "descripcion" : "Disponibles para su venta", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe85bbb4ac7fec7db894" }, "clave" : 3, "descripcion" : "Conservar a vencimiento", "version" : 1 }
+{ "_id" : { "$oid" : "53bb030bbbb4ac7fec7dc504" }, "clave" : "D         ", "descripcion" : " DIRECTO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb030bbbb4ac7fec7dc505" }, "clave" : "P         ", "descripcion" : " PRÉSTAMO DE VALORES", "version" : 1 }
+{ "_id" : { "$oid" : "53bb030bbbb4ac7fec7dc506" }, "clave" : "R         ", "descripcion" : " REPORTO", "version" : 1 }
