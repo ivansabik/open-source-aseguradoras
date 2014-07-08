@@ -1,101 +1,22 @@
 # -*- coding: utf-8 -*-
 
+import csv
 from calculadora_pnnx import pnnx
 
+f = open('tabla_mortalidad.csv')
+reader = csv.reader(f)
 tabla_mortalidad = {}
-tabla_mortalidad[12] = 0.000368
-tabla_mortalidad[13] = 0.000403
-tabla_mortalidad[14] = 0.000432
-tabla_mortalidad[15] = 0.000461
-tabla_mortalidad[16] = 0.00049000
-tabla_mortalidad[17] = 0.000509
-tabla_mortalidad[18] = 0.00053
-tabla_mortalidad[19] = 0.000552
-tabla_mortalidad[20] = 0.00058
-tabla_mortalidad[21] = 0.000618
-tabla_mortalidad[22] = 0.000671
-tabla_mortalidad[23] = 0.000742
-tabla_mortalidad[24] = 0.000824
-tabla_mortalidad[25] = 0.000909
-tabla_mortalidad[26] = 0.000988
-tabla_mortalidad[27] = 0.001053
-tabla_mortalidad[28] = 0.001098
-tabla_mortalidad[29] = 0.001126
-tabla_mortalidad[30] = 0.001139
-tabla_mortalidad[31] = 0.001142
-tabla_mortalidad[32] = 0.001143
-tabla_mortalidad[33] = 0.001143
-tabla_mortalidad[34] = 0.001144
-tabla_mortalidad[35] = 0.001145
-tabla_mortalidad[36] = 0.001146
-tabla_mortalidad[37] = 0.00117
-tabla_mortalidad[38] = 0.00121
-tabla_mortalidad[39] = 0.001266
-tabla_mortalidad[40] = 0.001337
-tabla_mortalidad[41] = 0.001421
-tabla_mortalidad[42] = 0.001517
-tabla_mortalidad[43] = 0.001625
-tabla_mortalidad[44] = 0.001745
-tabla_mortalidad[45] = 0.001879
-tabla_mortalidad[46] = 0.002028
-tabla_mortalidad[47] = 0.002192
-tabla_mortalidad[48] = 0.002375
-tabla_mortalidad[49] = 0.002579
-tabla_mortalidad[50] = 0.00281
-tabla_mortalidad[51] = 0.003072
-tabla_mortalidad[52] = 0.003369
-tabla_mortalidad[53] = 0.003707
-tabla_mortalidad[54] = 0.004091
-tabla_mortalidad[55] = 0.004525
-tabla_mortalidad[56] = 0.005015
-tabla_mortalidad[57] = 0.005565
-tabla_mortalidad[58] = 0.00618
-tabla_mortalidad[59] = 0.006858
-tabla_mortalidad[60] = 0.007599
-tabla_mortalidad[61] = 0.008399
-tabla_mortalidad[62] = 0.009257
-tabla_mortalidad[63] = 0.01017
-tabla_mortalidad[64] = 0.011126
-tabla_mortalidad[65] = 0.012114
-tabla_mortalidad[66] = 0.01312
-tabla_mortalidad[67] = 0.014132
-tabla_mortalidad[68] = 0.015158
-tabla_mortalidad[69] = 0.016287
-tabla_mortalidad[70] = 0.01763
-tabla_mortalidad[71] = 0.019298
-tabla_mortalidad[72] = 0.021399
-tabla_mortalidad[73] = 0.024021
-tabla_mortalidad[74] = 0.027151
-tabla_mortalidad[75] = 0.030753
-tabla_mortalidad[76] = 0.03479
-tabla_mortalidad[77] = 0.039226
-tabla_mortalidad[78] = 0.044438
-tabla_mortalidad[79] = 0.04975
-tabla_mortalidad[80] = 0.055061
-tabla_mortalidad[81] = 0.060372
-tabla_mortalidad[82] = 0.065683
-tabla_mortalidad[83] = 0.071383
-tabla_mortalidad[84] = 0.077084
-tabla_mortalidad[85] = 0.082784
-tabla_mortalidad[86] = 0.088484
-tabla_mortalidad[87] = 0.09619
-tabla_mortalidad[88] = 0.104568
-tabla_mortalidad[89] = 0.113675
-tabla_mortalidad[90] = 0.123575
-tabla_mortalidad[91] = 0.134338
-tabla_mortalidad[92] = 0.157048
-tabla_mortalidad[93] = 0.197794
-tabla_mortalidad[94] = 0.249177
-tabla_mortalidad[95] = 0.313907
-tabla_mortalidad[96] = 0.395454
-tabla_mortalidad[97] = 0.498184
-tabla_mortalidad[98] = 0.627601
-tabla_mortalidad[99] = 0.790638
-tabla_mortalidad[100] = 1
+reader.next()
+for row in reader:
+    tabla_mortalidad[int(row[0])] = float(row[1])
 
-edad = 18
-sa = 350000
-plazo = 5
-moneda = 'MXP'
-
-print pnnx(edad, sa, plazo, moneda, tabla_mortalidad)
+f = open('polizas.csv')
+reader = csv.reader(f)
+tabla_mortalidad = {}
+reader.next()
+for row in reader:
+    edad = int(row[0])
+    sa = float(row[1])
+    plazo = int(row[2])
+    moneda = row[3]
+    print pnnx(edad, sa, plazo, moneda, tabla_mortalidad)
