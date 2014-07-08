@@ -1,9 +1,9 @@
-* Pólizas
+# Pólizas
 
 
-* Estadísticas detalladas de Vida Individual 2012
+# Estadísticas detalladas de Vida Individual 2012
 
-** Variables
+#### Variables
 
 | Nombre        | Descripción                                                                                               | Archivo              |
 |---------------|-----------------------------------------------------------------------------------------------------------|--------------------- |
@@ -51,9 +51,9 @@
 | SINIESTROS    | Número de Siniestros                                                                                      | Siniestros           |
 | SUBT_SEG      | Subtipo de Seguro (ver Catálogo 6)                                                                        | Emisión y Siniestros |
 
-** Catálogos
+### Catálogos
 
-**** Modalidad de la Póliza
+#### Modalidad de la Póliza
 
 | Clave | Valor                                 |
 | ----- | ------------------------------------- |
@@ -67,7 +67,7 @@
 | 8	| Otro                                  |
 	
 	
-**** Estatus de la Póliza o Certificado
+#### Estatus de la Póliza o Certificado
 
 | Clave | Valor                                    |
 | ----- | ---------------------------------------- |
@@ -79,7 +79,7 @@
 | 6     | Saldada                                  |
 | 7     | Prorrogada                               |
 	
-**** Estatus del Siniestro
+#### Estatus del Siniestro
 
 | Clave | Valor                 |
 | ----- | --------------------- |
@@ -89,7 +89,7 @@
 | 4     | Pendiente de pago     |
 | 5     | Litigio               |
 	
-**** Entidad
+#### Entidad
 
 | Clave  | Valor               |
 | ------ | ------------------- |
@@ -128,7 +128,7 @@
 | 33     | Extranjero          |
 | 34     | Desconocido         |
 	
-**** Forma de Venta
+#### Forma de Venta
 
 | Clave | Valor                   |
 | ----- | ----------------------- |
@@ -139,7 +139,7 @@
 | E     | Venta Masiva            |
 | F     | Otros                   |
 	
-**** Subtipo de seguro
+#### Subtipo de seguro
 
 | Clave | Valor                                                                           |
 | ----- | ------------------------------------------------------------------------------- |

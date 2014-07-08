@@ -1,21 +1,25 @@
 # -*- coding: utf-8 -*-
-
 import csv
 from calculadora_pnnx import pnnx
 import ast
 import time
 
 tiempo_inicio = time.time()
-f = open('tabla_mortalidad.csv')
-reader = csv.reader(f)
+
+# Lee tabla de mortalidad, salta header de csv
+archivo_csv = open('tabla_mortalidad.csv')
+reader = csv.reader(archivo_csv)
 tabla_mortalidad = {}
 reader.next()
+
+# Lee pólizas, salta header de csv
 for row in reader:
     tabla_mortalidad[ast.literal_eval(row[0])] = ast.literal_eval(row[1])
-f = open('polizas.csv')
-reader = csv.reader(f)
+archivo_csv = open('polizas.csv')
+reader = csv.reader(archivo_csv)
 reader.next()
 
+# Calcula PNNx por póliza
 calculos_pnnx = {}
 for row in reader:
     num_poliza = row[0]
