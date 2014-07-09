@@ -30,6 +30,6 @@ for row in reader:
     plazo = 5
     calculo_pnnx = pnnx(edad, sa, plazo, moneda, tabla_mortalidad)
     calculos_pnnx[num_poliza] = calculo_pnnx
-    print 'Póliza número ' + num_poliza + ', PNNx: ' + str(calculo_pnnx)
+    # print 'Póliza número ' + num_poliza + ', PNNx: ' + str(calculo_pnnx)
 print '----------'
 print 'Tiempo: ' + str(time.time() - tiempo_inicio) + ' segs.'
