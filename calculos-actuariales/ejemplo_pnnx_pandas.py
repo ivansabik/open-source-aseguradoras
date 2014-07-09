@@ -10,8 +10,6 @@ i = 0.05
 print '---------- Pólizas ----------'
 df_polizas = pd.read_csv('polizas.csv')
 df_polizas['pnnx'] = None
-# Asigna plazo, TODO: que sea de acuerdo a VIN5, VIN10...
-df_polizas['plazo'] = 5
 print df_polizas.head()
 print df_polizas.describe()
 
@@ -29,17 +27,39 @@ df_tabla_vt.apply(Vt, axis=1)
 df_tabla_vt['Vt1'] = df_tabla_vt['Vt'].shift(1)
 print df_tabla_vt.head()
 
-print '---------- Calculos por poliza ----------'
-def multiplica(df_polizas):
-    edad_poliza = df_polizas['edad']
-    plazo_poliza = df_polizas['plazo']
-    indice_x0 = edad_poliza-12
-    df_vt = df_tabla_vt.ix[0:plazo_poliza-1].reset_index(drop=True)
-    df_mort = df_tabla_mortalidad.ix[indice_x0:indice_x0+plazo_poliza-1].reset_index(drop=True)
-    df_pnnx = df_vt.join(df_mort, how='outer')
-    df_polizas['numerador'] = df_pnnx['Vt1'] * df_pnnx['px'] * df_pnnx['qx']
-    df_polizas['denominador'] = df_pnnx['Vt'] * df_pnnx['px']
-    return df_polizas
-df_polizas.apply(multiplica, axis=1)
+print '---------- Valores únicos de edad ----------'
+print sorted(df_polizas['edad'].unique())
+
+print '---------- Plazo máximo ----------'
+print df_polizas['plazo'].max()
+
+print '---------- Tabla x/t vacía ----------'
+df_tabla_xt = pd.DataFrame({'x': sorted(df_polizas['edad'].unique())})
+for t in range(0, df_polizas['plazo'].max()):
+    df_tabla_xt[t] = int(t)
+print df_tabla_xt.head()
+
+
+'''
+print '---------- Llenado de x/t ----------'
+def multiplica(df_tabla_xt):
+    x = df_tabla_xt['x']
+    indice_x0 = x - 12
+
+    Vt = df_tabla_vt['Vt'].ix[0:n-1].reset_index(drop=True)
+    Vt1 = df_tabla_vt['Vt1'].ix[0:n-1].reset_index(drop=True)
+    tPx = df_tabla_mortalidad['px'].ix[indice_x0:indice_x0+n-1].reset_index(drop=True)
+    qxt =df_tabla_mortalidad['qx'].ix[indice_x0:indice_x0+n-1].reset_index(drop=True)
+
+    df_tabla_xt['Vt1xtPxxQxt'] = Vt1 * tPx * qxt
+    df_tabla_xt['VttPx'] = Vt * tPx
+
+    
+    return df_tabla_xt
+df_tabla_xt.apply(multiplica, axis=1)
+
+print df_tabla_xt.head()
+'''
+
 print '----------'
 print 'Tiempo: ' + str(time.time() - tiempo_inicio) + ' segs.'
