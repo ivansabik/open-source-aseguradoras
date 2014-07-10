@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import time
+import copy
 
 tiempo_inicio = time.time()
 
@@ -16,15 +17,16 @@ print df_polizas.describe()
 print '---------- Tabla Mortalidad ----------'
 df_tabla_mortalidad = pd.read_csv('tabla_mortalidad.csv')
 df_tabla_mortalidad['px'] = 1-df_tabla_mortalidad['qx']
+df_tabla_mortalidad['pxqx'] = df_tabla_mortalidad['px']-df_tabla_mortalidad['qx']
 print df_tabla_mortalidad.head()
 
 print '---------- Tabla Vt ----------'
-df_tabla_vt = pd.DataFrame({'Vt': range(0,100), 't': range(0,100)}).astype('float')
+df_tabla_vt = pd.DataFrame({'Vt': range(0,100), 't': range(0,100)}, dtype='float')
 def Vt(df_tabla_vt):
     df_tabla_vt['Vt'] = pow(i+1, -df_tabla_vt['t'])
     return df_tabla_vt
 df_tabla_vt.apply(Vt, axis=1)
-df_tabla_vt['Vt1'] = df_tabla_vt['Vt'].shift(1)
+df_tabla_vt['Vt1'] = df_tabla_vt['Vt'].shift(-1)
 print df_tabla_vt.head()
 
 print '---------- Valores únicos de edad ----------'
@@ -33,12 +35,29 @@ print sorted(df_polizas['edad'].unique())
 print '---------- Plazo máximo ----------'
 print df_polizas['plazo'].max()
 
-print '---------- Tabla x/t vacía ----------'
-df_tabla_xt = pd.DataFrame({'x': sorted(df_polizas['edad'].unique())})
+print '---------- Tabla numerador ----------'
+df_tabla_num = pd.DataFrame({'x': sorted(df_polizas['edad'].unique())})
 for t in range(0, df_polizas['plazo'].max()):
-    df_tabla_xt[t] = int(t)
-print df_tabla_xt.head()
+    df_tabla_num[t] = t
+    df_tabla_num[t] = df_tabla_num[t].astype('float')
+print df_tabla_num.head()
 
+print '---------- Tabla denominador ----------'
+df_tabla_den = copy.deepcopy(df_tabla_num)
+print df_tabla_den.head()
+
+print '---------- Tabla numerador con calculos ----------'
+def multiplica(df_tabla_num):
+    x = df_tabla_num[0].astype('int32')
+    for col in df_tabla_num[1:]:
+        if(col == 0):
+            df_tabla_num[col] = 2000
+        else:
+            df_tabla_num[col] = df_tabla_vt['Vt1'][col] * df_tabla_mortalidad['pxqx'].shift(-(12-x))[x+col]
+            print df_tabla_num[col]
+    return df_tabla_num
+df_tabla_num.apply(multiplica, axis=1)
+print df_tabla_num[0].head()
 
 '''
 print '---------- Llenado de x/t ----------'
