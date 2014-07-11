@@ -6,59 +6,90 @@ import copy
 
 tiempo_inicio = time.time()
 
-i = 0.05
-
 print '---------- Pólizas ----------'
-df_polizas = pd.read_csv('polizas.csv')
-df_polizas['pnnx'] = None
-print df_polizas.head()
+polizas = pd.read_csv('polizas.csv')
+print polizas.keys()
+print polizas.head()
 
 print '---------- Tabla Mortalidad ----------'
-df_tabla_mortalidad = pd.read_csv('tabla_mortalidad.csv')
-df_tabla_mortalidad['px'] = 1-df_tabla_mortalidad['qx']
-df_tabla_mortalidad['pxqx'] = df_tabla_mortalidad['px']*df_tabla_mortalidad['qx']
-print df_tabla_mortalidad.head()
+mortalidad = pd.read_csv('tabla_mortalidad.csv')
+mortalidad['px'] = 1-mortalidad['qx']
+mortalidad['pxqx'] = mortalidad['px']*mortalidad['qx']
+print mortalidad.head()
 
 print '---------- Tabla Vt ----------'
-df_tabla_vt = pd.DataFrame({'Vt': range(0,100), 't': range(0,100)}, dtype='float')
-def Vt(df_tabla_vt):
-    df_tabla_vt['Vt'] = pow(i+1, -df_tabla_vt['t'])
-    return df_tabla_vt
-df_tabla_vt.apply(Vt, axis=1)
-df_tabla_vt['Vt1'] = df_tabla_vt['Vt'].shift(-1)
-print df_tabla_vt.head()
+i = 0.05
+vt = pd.DataFrame({'vt': range(0,polizas['plazo'].max()+1), 't': range(0,polizas['plazo'].max()+1)}, dtype='float')
+def Vt(vt):
+    vt['vt'] = pow(i+1, -vt['t'])
+    return vt
+vt.apply(Vt, axis=1)
+vt['vt+1'] = vt['vt'].shift(-1)
+print vt.head()
 
 print '---------- Valores únicos de edad ----------'
-print sorted(df_polizas['edad'].unique())
+print sorted(polizas['edad'].unique())
 
 print '---------- Plazo máximo ----------'
-print df_polizas['plazo'].max()
+print polizas['plazo'].max()
+
+print '---------- Plazo mínimo ----------'
+print polizas['plazo'].min()
 
 print '---------- Tabla numerador ----------'
-df_tabla_num = pd.DataFrame({'x': sorted(df_polizas['edad'].unique())}, dtype='float')
-for t in range(0, df_polizas['plazo'].max()):
-    df_tabla_num[t] = t
-    df_tabla_num[t] = df_tabla_num[t].astype('float')
-print df_tabla_num.head()
+numerador = pd.DataFrame({'x': sorted(polizas['edad'].unique())}, dtype='float')
+for t in range(0, polizas['plazo'].max()):
+    numerador[t] = t
+    numerador[t] = numerador[t].astype('float')
+print numerador.head()
 
 print '---------- Tabla denominador ----------'
-df_tabla_den = copy.deepcopy(df_tabla_num)
-print df_tabla_den.head()
+denominador = copy.deepcopy(numerador)
+print numerador.head()
 
-print '---------- Tabla numerador con calculos ----------'
-def multiplica(df_tabla_num):
-    x = df_tabla_num['x'].astype('int32')
-    for t in df_tabla_num[1:]:
+print '---------- Tabla numerador con factores ----------'
+def multiplica_num(numerador):
+    x = numerador['x'].astype('int32')
+    for t in numerador[1:]:
         t = int(t)
         if(t == 0):
-            df_tabla_num[t] = df_tabla_mortalidad['pxqx'].iloc[x-13]
+            numerador[t] = vt['vt'].iloc[t] 
         else:
-            df_tabla_num[t] = df_tabla_vt['Vt1'].iloc[t] * df_tabla_mortalidad['pxqx'].iloc[(x+t)-13]
-            if(t == 1 or t == 2 or t ==3):
-                print x, t, df_tabla_vt['Vt1'].iloc[t], df_tabla_mortalidad['pxqx'].iloc[(x+t)-13]
-    return df_tabla_num
-df_tabla_num.apply(multiplica, axis=1)
-print df_tabla_num
+            numerador[t] = vt['vt'].iloc[t] * mortalidad['pxqx'].iloc[(x+t)-13]
+            #if(t == 1 or t == 2 or t ==3):
+            #    print x, t, vt['vt+1'].iloc[t], mortalidad['px'].iloc[(x+t)-13]
+    return numerador
+numerador.apply(multiplica_num, axis=1)
+print numerador.head()
+
+print '---------- Tabla denominador con factores ----------'
+def multiplica_den(denominador):
+    x = denominador['x'].astype('int32')
+    for t in denominador[1:]:
+        t = int(t)
+        if(t == 0):
+            denominador[t] = mortalidad['pxqx'].iloc[x-13]
+        else:
+            denominador[t] = vt['vt+1'].iloc[t] * mortalidad['pxqx'].iloc[(x+t)-13]
+            #if(t == 1 or t == 2 or t ==3):
+            #    print x, t, vt['vt+1'].iloc[t], mortalidad['pxqx'].iloc[(x+t)-13]
+    return denominador
+denominador.apply(multiplica_den, axis=1)
+print denominador.head()
+
+print '---------- PNNx = (SA * num) / denom ----------'
+print polizas[' suma_asegurada'].head()
+print polizas['edad'].head()
+print polizas['plazo'].head()
+print numerador[10].iloc[0]
+print numerador.head()
+print numerador.tail()
+
+
+polizas = polizas.sort(['plazo', 'edad'])
+
+print polizas.transpose().head()
+#print polizas.head()
 
 print '----------'
 print 'Tiempo: ' + str(time.time() - tiempo_inicio) + ' segs.'
