@@ -27,13 +27,14 @@ vt.apply(Vt, axis=1)
 vt['vt+1'] = vt['vt'].shift(-1)
 print vt.head()
 
-print '---------- Valores únicos de edad ----------'
+print '---------- Edades ----------'
 print sorted(polizas['edad'].unique())
+print polizas['edad'].max()
+print polizas['edad'].min()
 
-print '---------- Plazo máximo ----------'
+print '---------- Plazos ----------'
+print sorted(polizas['edad'].unique())
 print polizas['plazo'].max()
-
-print '---------- Plazo mínimo ----------'
 print polizas['plazo'].min()
 
 print '---------- Tabla numerador ----------'
@@ -78,18 +79,15 @@ denominador.apply(multiplica_den, axis=1)
 print denominador.head()
 
 print '---------- PNNx = (SA * num) / denom ----------'
-print polizas[' suma_asegurada'].head()
-print polizas['edad'].head()
-print polizas['plazo'].head()
-print numerador[10].iloc[0]
-print numerador.head()
-print numerador.tail()
+i = 0
+for name, group in polizas.groupby(['edad', 'plazo']):
+    i = i + 1 
+    edad, plazo = name[0], name[1]
+    print 'Edad: ' + str(edad), 'Plazo: ' + str(plazo), 'Edad min: ' + str(polizas['edad'].min())
+    print numerador[plazo - 1].iloc[edad - polizas['edad'].min()]
+    
 
-
-polizas = polizas.sort(['plazo', 'edad'])
-
-print polizas.transpose().head()
-#print polizas.head()
+print 'Total de combinaciones: ' + str(i)
 
 print '----------'
 print 'Tiempo: ' + str(time.time() - tiempo_inicio) + ' segs.'
