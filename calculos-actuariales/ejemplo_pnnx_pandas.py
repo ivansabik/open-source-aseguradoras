@@ -3,16 +3,20 @@ import pandas as pd
 import numpy as np
 import time
 import copy
+from itertools import chain
 
 tiempo_inicio = time.time()
 
 print '---------- Pólizas ----------'
 polizas = pd.read_csv('polizas.csv')
+polizas = polizas.set_index('num_poliza')
+polizas['pnnx'] = None
 print polizas.keys()
 print polizas.head()
 
 print '---------- Tabla Mortalidad ----------'
 mortalidad = pd.read_csv('tabla_mortalidad.csv')
+mortalidad = mortalidad.set_index('edad')
 mortalidad['px'] = 1-mortalidad['qx']
 mortalidad['pxqx'] = mortalidad['px']*mortalidad['qx']
 print mortalidad.head()
@@ -56,9 +60,7 @@ def multiplica_num(numerador):
         if(t == 0):
             numerador[t] = vt['vt'].iloc[t] 
         else:
-            numerador[t] = vt['vt'].iloc[t] * mortalidad['pxqx'].iloc[(x+t)-13]
-            #if(t == 1 or t == 2 or t ==3):
-            #    print x, t, vt['vt+1'].iloc[t], mortalidad['px'].iloc[(x+t)-13]
+            numerador[t] = vt['vt'].iloc[t] * mortalidad['pxqx'].iloc[x+t]
     return numerador
 numerador.apply(multiplica_num, axis=1)
 print numerador.head()
@@ -69,25 +71,21 @@ def multiplica_den(denominador):
     for t in denominador[1:]:
         t = int(t)
         if(t == 0):
-            denominador[t] = mortalidad['pxqx'].iloc[x-13]
+            denominador[t] = mortalidad['pxqx'].iloc[x]
         else:
-            denominador[t] = vt['vt+1'].iloc[t] * mortalidad['pxqx'].iloc[(x+t)-13]
-            #if(t == 1 or t == 2 or t ==3):
-            #    print x, t, vt['vt+1'].iloc[t], mortalidad['pxqx'].iloc[(x+t)-13]
+            denominador[t] = vt['vt+1'].iloc[t] * mortalidad['pxqx'].iloc[x+t]
     return denominador
 denominador.apply(multiplica_den, axis=1)
 print denominador.head()
 
 print '---------- PNNx = (SA * num) / denom ----------'
-i = 0
-for name, group in polizas.groupby(['edad', 'plazo']):
-    i = i + 1 
-    edad, plazo = name[0], name[1]
-    print 'Edad: ' + str(edad), 'Plazo: ' + str(plazo), 'Edad min: ' + str(polizas['edad'].min())
-    print numerador[plazo - 1].iloc[edad - polizas['edad'].min()]
-    
+def pnnx(sa, edad, plazo):
+    return sa * numerador[plazo - 1].iloc[0:edad].sum() / denominador[plazo - 1].iloc[0:edad].sum()
+polizas_agrupadas = polizas.groupby(['edad', 'plazo'])
+for keys_grupo in dict(list(polizas_agrupadas)).keys():
+    edad, plazo = keys_grupo[0], keys_grupo[1]
+    polizas['pnnx'] = polizas_agrupadas['suma_asegurada'].apply(pnnx, edad, plazo)
 
-print 'Total de combinaciones: ' + str(i)
-
+print polizas.head()
 print '----------'
 print 'Tiempo: ' + str(time.time() - tiempo_inicio) + ' segs.'
