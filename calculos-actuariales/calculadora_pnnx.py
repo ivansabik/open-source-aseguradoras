@@ -1,16 +1,9 @@
 # -*- coding: utf-8 -*-
 
-def pnnx(edad, sa, plazo, moneda, tabla_mortalidad):
+def pnnx(edad, sa, plazo, tabla_mortalidad):
     x = edad
     n = plazo
-    if(moneda.lower() == 'mxp'):
-        i = 0.05
-    elif(moneda.lower() == 'udi'):
-        i = 0.025
-    elif(moneda.lower() == 'usd'):
-        i = 0.03
-    else:
-        raise NameError('Moneda desconocida!: ' + moneda)
+    i = 0.05
     suma_numerador = 0.0
     suma_denominador = 0.0
     for t in range(0, n):

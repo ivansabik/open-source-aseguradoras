@@ -10,20 +10,19 @@ tiempo_inicio = time.time()
 print '---------- Pólizas ----------'
 polizas = pd.read_csv('polizas.csv')
 polizas = polizas.set_index('num_poliza')
-polizas['pnnx'] = None
 print polizas.keys()
 print polizas.head()
 
 print '---------- Tabla Mortalidad ----------'
 mortalidad = pd.read_csv('tabla_mortalidad.csv')
 mortalidad = mortalidad.set_index('edad')
-mortalidad['px'] = 1-mortalidad['qx']
-mortalidad['pxqx'] = mortalidad['px']*mortalidad['qx']
+mortalidad['px'] = 1 - mortalidad['qx']
+mortalidad['pxqx'] = mortalidad['px'] * mortalidad['qx']
 print mortalidad.head()
 
 print '---------- Tabla Vt ----------'
 i = 0.05
-vt = pd.DataFrame({'vt': range(0,polizas['plazo'].max()+1), 't': range(0,polizas['plazo'].max()+1)}, dtype='float')
+vt = pd.DataFrame({'vt': range(0, polizas['plazo'].max()+1), 't': range(0,polizas['plazo'].max()+1)}, dtype='float')
 def Vt(vt):
     vt['vt'] = pow(i+1, -vt['t'])
     return vt
@@ -37,7 +36,7 @@ print polizas['edad'].max()
 print polizas['edad'].min()
 
 print '---------- Plazos ----------'
-print sorted(polizas['edad'].unique())
+print sorted(polizas['plazo'].unique())
 print polizas['plazo'].max()
 print polizas['plazo'].min()
 
@@ -60,7 +59,7 @@ def multiplica_num(numerador):
         if(t == 0):
             numerador[t] = vt['vt'].iloc[t] 
         else:
-            numerador[t] = vt['vt'].iloc[t] * mortalidad['pxqx'].iloc[x+t]
+            numerador[t] = vt['vt'].iloc[t] * mortalidad['pxqx'].iloc[x + t]
     return numerador
 numerador.apply(multiplica_num, axis=1)
 print numerador.head()
@@ -73,19 +72,21 @@ def multiplica_den(denominador):
         if(t == 0):
             denominador[t] = mortalidad['pxqx'].iloc[x]
         else:
-            denominador[t] = vt['vt+1'].iloc[t] * mortalidad['pxqx'].iloc[x+t]
+            denominador[t] = vt['vt+1'].iloc[t] * mortalidad['pxqx'].iloc[x + t]
     return denominador
 denominador.apply(multiplica_den, axis=1)
 print denominador.head()
 
 print '---------- PNNx = (SA * num) / denom ----------'
+polizas['pnnx'] = None
 def pnnx(sa, edad, plazo):
     return sa * numerador[plazo - 1].iloc[0:edad].sum() / denominador[plazo - 1].iloc[0:edad].sum()
 polizas_agrupadas = polizas.groupby(['edad', 'plazo'])
-for keys_grupo in dict(list(polizas_agrupadas)).keys():
-    edad, plazo = keys_grupo[0], keys_grupo[1]
+tuplas_polizas = dict(list(polizas_agrupadas)).keys()
+for tupla in tuplas_polizas:
+    edad, plazo = tupla[0], tupla[1]
     polizas['pnnx'] = polizas_agrupadas['suma_asegurada'].apply(pnnx, edad, plazo)
-
 print polizas.head()
+
 print '----------'
 print 'Tiempo: ' + str(time.time() - tiempo_inicio) + ' segs.'

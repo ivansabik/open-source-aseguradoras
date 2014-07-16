@@ -23,11 +23,10 @@ reader.next()
 calculos_pnnx = {}
 for row in reader:
     num_poliza = row[0]
-    moneda = row[2]
-    plazo = int(row[3])
-    edad = ast.literal_eval(row[4])
-    sa = ast.literal_eval(row[5])
-    calculo_pnnx = pnnx(edad, sa, plazo, moneda, tabla_mortalidad)
+    plazo = int(row[1])
+    edad = ast.literal_eval(row[2])
+    sa = ast.literal_eval(row[3])
+    calculo_pnnx = pnnx(edad, sa, plazo, tabla_mortalidad)
     calculos_pnnx[num_poliza] = calculo_pnnx
     # print 'Póliza número ' + num_poliza + ', PNNx: ' + str(calculo_pnnx)
 print '----------'
