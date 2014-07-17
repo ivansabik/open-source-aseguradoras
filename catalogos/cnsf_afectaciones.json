@@ -1,3 +1,0 @@
-{ "_id" : { "$oid" : "53bafe14bbb4ac7fec7db6b1" }, "clave" : 1, "descripcion" : "RT        ", "version" : 1 }
-{ "_id" : { "$oid" : "53bafe14bbb4ac7fec7db6b2" }, "clave" : 2, "descripcion" : "RCS       ", "version" : 1 }
-{ "_id" : { "$oid" : "53bafe14bbb4ac7fec7db6b3" }, "clave" : 3, "descripcion" : "OP        ", "version" : 1 }

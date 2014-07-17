@@ -1,0 +1,20 @@
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4bb" }, "clave" : "CPREP", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "CRÉDITOS CON GARANTÍA PRENDARIA", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4bc" }, "clave" : "CPREH", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "CRÉDITOS CON GARANTÍA HIPOTECARIA", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4bd" }, "clave" : "CPREQ", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "CRÉDITOS QUIROGRAFARIOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4be" }, "clave" : "CPREF", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "GARANTÍA DE FIDEICOMISOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4bf" }, "clave" : "VPREH", "cartera" : "CRÉDITO A LA VIVIENDA", "descripcion" : "CRÉDITOS CON GARANTÍA HIPOTECARIA", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4c0" }, "clave" : "VPREHP", "cartera" : "CRÉDITO A LA VIVIENDA", "descripcion" : "CRÉDITOS CON GARANTÍA HIPOTECARIA PARA EMPLEADOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4c1" }, "clave" : "QPREQ", "cartera" : "CRÉDITO QUIROGRAFÁRIO", "descripcion" : "CRÉDITOS QUIROGRAFARIOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4c2" }, "clave" : "QPREE", "cartera" : "CRÉDITO QUIROGRAFÁRIO", "descripcion" : "PRÉSTAMOS AL PERSONAL", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4c3" }, "clave" : "PRER", "cartera" : "PRÉSTAMOS POR CONTRATOS DE REASEGURO FINANCIERO OTORGADOS", "descripcion" : "PRÉSTAMOS POR CONTRATOS DE REASEGURO FINANCIERO OTORGADOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01edbbb4ac7fec7dc4c4" }, "clave" : "PRES", "cartera" : "PRÉSTAMOS SOBRE PÓLIZAS", "descripcion" : "PRÉSTAMOS SOBRE PÓLIZAS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4c5" }, "clave" : "CPREP", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "CRÉDITOS CON GARANTÍA PRENDARIA", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4c6" }, "clave" : "CPREH", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "CRÉDITOS CON GARANTÍA HIPOTECARIA", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4c7" }, "clave" : "CPREQ", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "CRÉDITOS QUIROGRAFARIOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4c8" }, "clave" : "CPREF", "cartera" : "CRÉDITO COMERCIAL", "descripcion" : "GARANTÍA DE FIDEICOMISOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4c9" }, "clave" : "VPREH", "cartera" : "CRÉDITO A LA VIVIENDA", "descripcion" : "CRÉDITOS CON GARANTÍA HIPOTECARIA", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4ca" }, "clave" : "VPREHP", "cartera" : "CRÉDITO A LA VIVIENDA", "descripcion" : "CRÉDITOS CON GARANTÍA HIPOTECARIA PARA EMPLEADOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4cb" }, "clave" : "QPREQ", "cartera" : "CRÉDITO QUIROGRAFÁRIO", "descripcion" : "CRÉDITOS QUIROGRAFARIOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4cc" }, "clave" : "QPREE", "cartera" : "CRÉDITO QUIROGRAFÁRIO", "descripcion" : "PRÉSTAMOS AL PERSONAL", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4cd" }, "clave" : "PRER", "cartera" : "PRÉSTAMOS POR CONTRATOS DE REASEGURO FINANCIERO OTORGADOS", "descripcion" : "PRÉSTAMOS POR CONTRATOS DE REASEGURO FINANCIERO OTORGADOS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01febbb4ac7fec7dc4ce" }, "clave" : "PRES", "cartera" : "PRÉSTAMOS SOBRE PÓLIZAS", "descripcion" : "PRÉSTAMOS SOBRE PÓLIZAS", "version" : 1 }

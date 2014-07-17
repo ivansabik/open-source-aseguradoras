@@ -1,0 +1,72 @@
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0f7" }, "nivel1" : 510, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Primas Emitidas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0f8" }, "nivel1" : 510, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0f9" }, "nivel1" : 510, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0fa" }, "nivel1" : 520, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Primas Cedidas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0fb" }, "nivel1" : 520, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0fc" }, "nivel1" : 520, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0fd" }, "nivel1" : 530, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Primas De Retención", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0fe" }, "nivel1" : 530, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc0ff" }, "nivel1" : 530, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc100" }, "nivel1" : 540, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Incremento Neto de la Reserva de Riesgos en Curso y de Fianzas en Vigor", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc101" }, "nivel1" : 540, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc102" }, "nivel1" : 540, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc103" }, "nivel1" : 550, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Primas de Retención Devengadas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc104" }, "nivel1" : 550, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc105" }, "nivel1" : 550, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc106" }, "nivel1" : 560, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Costo Neto de Adquisición", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc107" }, "nivel1" : 560, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Comisiones a Agentes", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc108" }, "nivel1" : 560, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Compensaciones Adicionales a Agentes", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc109" }, "nivel1" : 560, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Comisiones por Reaseguro y Reafianzamiento Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc10a" }, "nivel1" : 560, "nivel2" : 4, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Comisiones por Reaseguro Cedido", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc10b" }, "nivel1" : 560, "nivel2" : 4, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc10c" }, "nivel1" : 560, "nivel2" : 4, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc10d" }, "nivel1" : 560, "nivel2" : 5, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Cobertura de Exceso de Pérdida", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc10e" }, "nivel1" : 560, "nivel2" : 5, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc10f" }, "nivel1" : 560, "nivel2" : 5, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc110" }, "nivel1" : 560, "nivel2" : 6, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Otros", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc111" }, "nivel1" : 560, "nivel2" : 6, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc112" }, "nivel1" : 560, "nivel2" : 6, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc113" }, "nivel1" : 570, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Costo Neto de Siniestralidad, Reclamaciones  y Otras Obligaciones Contractuales", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc114" }, "nivel1" : 570, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Siniestralidad y Otras Obligaciones Contractuales", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc115" }, "nivel1" : 570, "nivel2" : 1, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc116" }, "nivel1" : 570, "nivel2" : 1, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc117" }, "nivel1" : 570, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Siniestralidad Recuperada del Reaseguro No Proporcional", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc118" }, "nivel1" : 570, "nivel2" : 2, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc119" }, "nivel1" : 570, "nivel2" : 2, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc11a" }, "nivel1" : 570, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Reclamaciones", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc11b" }, "nivel1" : 570, "nivel2" : 3, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc11c" }, "nivel1" : 570, "nivel2" : 3, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc11d" }, "nivel1" : 570, "nivel2" : 4, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Reclamaciones Recuperadas del Reaseguro y Reafianzamiento No Proporcional", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc11e" }, "nivel1" : 570, "nivel2" : 4, "nivel3" : 1, "nivel4" : 0, "descripcion" : "Directo", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc11f" }, "nivel1" : 570, "nivel2" : 4, "nivel3" : 2, "nivel4" : 0, "descripcion" : "Tomado", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc120" }, "nivel1" : 580, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Utilidad (Pérdida) Técnica", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc121" }, "nivel1" : 590, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Incremento Neto de Otras Reservas Técnicas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc122" }, "nivel1" : 600, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Resultado de Operaciones Análogas y Conexas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc123" }, "nivel1" : 600, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Ingresos por Administracion de Servicios Conexos", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc124" }, "nivel1" : 600, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Ingresos por Servicios Conexos", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc125" }, "nivel1" : 600, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Gastos por Servicios Análogos y Conexos", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc126" }, "nivel1" : 610, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Utilidad (Pérdida) Bruta", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc127" }, "nivel1" : 620, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Gastos de Operación Netos", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc128" }, "nivel1" : 620, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Gastos Administrativos y Operativos", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc129" }, "nivel1" : 620, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Remuneraciones y Prestaciones al Personal", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc12a" }, "nivel1" : 620, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Depreciaciones y Amortizaciones", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc12b" }, "nivel1" : 630, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Utilidad (Pérdida) de la Operación", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc12c" }, "nivel1" : 640, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Resultado Integral de Financiamiento", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc12d" }, "nivel1" : 640, "nivel2" : 1, "nivel3" : 0, "nivel4" : 0, "descripcion" : "De Inversiones", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc12e" }, "nivel1" : 640, "nivel2" : 10, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Otros", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc12f" }, "nivel1" : 640, "nivel2" : 11, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Resultado Cambiario", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc130" }, "nivel1" : 640, "nivel2" : 12, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Resultado por Posición Monetaria", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc131" }, "nivel1" : 640, "nivel2" : 2, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Por Venta de Inversiones", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc132" }, "nivel1" : 640, "nivel2" : 3, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Por Valuación de Inversiones", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc133" }, "nivel1" : 640, "nivel2" : 4, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Por Recargo sobre Primas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc134" }, "nivel1" : 640, "nivel2" : 5, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Por Emisión de Instrumentos de Deuda", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc135" }, "nivel1" : 640, "nivel2" : 6, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Por Reaseguro Financiero", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc136" }, "nivel1" : 640, "nivel2" : 7, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Intereses por Créditos ", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc137" }, "nivel1" : 640, "nivel2" : 8, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Castigos preventivos por Importes Recuperables de Reaseguro ", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc138" }, "nivel1" : 640, "nivel2" : 9, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Castigos preventivos por Riesgos Crediticos ", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc139" }, "nivel1" : 650, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Participación en el Resultado de Inversiones Permanentes", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc13a" }, "nivel1" : 660, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Utilidad (Pérdida) antes de Impuestos a la Utilidad", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc13b" }, "nivel1" : 670, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Provisión para el Pago de Impuestos a la Utilidad", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc13c" }, "nivel1" : 680, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Utilidad (Pérdida) antes de Operaciones Discontinuadas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc13d" }, "nivel1" : 690, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Operaciones Discontinuadas", "version" : 1 }
+{ "_id" : { "$oid" : "53baff2bbbb4ac7fec7dc13e" }, "nivel1" : 700, "nivel2" : 0, "nivel3" : 0, "nivel4" : 0, "descripcion" : "Utilidad  (Pérdida) del Ejercicio ", "version" : 1 }

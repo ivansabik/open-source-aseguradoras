@@ -1,0 +1,22 @@
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4cf" }, "clave" : 12, "descripcion" : "PRIMER EXCEDENTE", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d0" }, "clave" : 13, "descripcion" : "SEGUNDO EXCEDENTE", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d1" }, "clave" : 14, "descripcion" : "TERCER EXCEDENTE", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d2" }, "clave" : 15, "descripcion" : "CUARTO EXCEDENTE", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d3" }, "clave" : 16, "descripcion" : "FACULTATIVO OBLIGATORIO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d4" }, "clave" : 17, "descripcion" : "OPEN COVER", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d5" }, "clave" : 18, "descripcion" : "OTROS (Proporcional)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d6" }, "clave" : 19, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d7" }, "clave" : 20, "descripcion" : "WORKING COVER POR RIESGO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d8" }, "clave" : 21, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4d9" }, "clave" : 22, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4da" }, "clave" : 23, "descripcion" : "TENT PLAN POR RIESGO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4db" }, "clave" : 24, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4dc" }, "clave" : 25, "descripcion" : "BUFFER LAYER", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4dd" }, "clave" : 26, "descripcion" : "CATASTRÓFICO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4de" }, "clave" : 27, "descripcion" : "CLASH COVER", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4df" }, "clave" : 28, "descripcion" : "SHORT FALL", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4e0" }, "clave" : 29, "descripcion" : "STOP LOSS", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4e1" }, "clave" : 30, "descripcion" : "UMBRELLA POR RIESGO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4e2" }, "clave" : 31, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4e3" }, "clave" : 32, "descripcion" : "", "version" : 1 }
+{ "_id" : { "$oid" : "53bb020dbbb4ac7fec7dc4e4" }, "clave" : 33, "descripcion" : "OTROS ( no Proporcional)", "version" : 1 }

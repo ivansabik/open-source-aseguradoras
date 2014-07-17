@@ -1,8 +1,0 @@
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4e8" }, "clave" : 1, "descripcion" : "Anticipos", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4e9" }, "clave" : 2, "descripcion" : "Cheques devueltos", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4ea" }, "clave" : 3, "descripcion" : "Deudores por rentas", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4eb" }, "clave" : 4, "descripcion" : "Deudor por liquidación de divisas", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4ec" }, "clave" : 5, "descripcion" : "Deudor por liquidación de inversiones en valores", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4ed" }, "clave" : 6, "descripcion" : "Deudor por liquidación de préstamos de valores", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4ee" }, "clave" : 7, "descripcion" : "Deudor por liquidación de reportos", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02a6bbb4ac7fec7dc4ef" }, "clave" : 8, "descripcion" : "Otros", "version" : 1 }

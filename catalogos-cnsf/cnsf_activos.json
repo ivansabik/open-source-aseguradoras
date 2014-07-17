@@ -1,0 +1,8 @@
+{ "_id" : { "$oid" : "53bb009bbbb4ac7fec7dc463" }, "clave" : "DESR", "descripcion" : "OPERACIONES DE DESCUENTO Y REDESCUENTO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb009bbbb4ac7fec7dc464" }, "clave" : "AAPF", "descripcion" : "ADEUDOS A CARGO DE DEPENDENCIAS Y ENTIDADES DE LA ADMINISTRACIÓN PÚBLICA FEDERAL", "version" : 1 }
+{ "_id" : { "$oid" : "53bb009bbbb4ac7fec7dc465" }, "clave" : "NAFIN", "descripcion" : "INVERSIONES EN NAFIN (RESERVAS ESPECÍFICAS)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb009bbbb4ac7fec7dc466" }, "clave" : "DEUD", "descripcion" : "DEUDORES", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0164bbb4ac7fec7dc48f" }, "clave" : "DESR", "descripcion" : "OPERACIONES DE DESCUENTO Y REDESCUENTO", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0164bbb4ac7fec7dc490" }, "clave" : "AAPF", "descripcion" : "ADEUDOS A CARGO DE DEPENDENCIAS Y ENTIDADES DE LA ADMINISTRACIÓN PÚBLICA FEDERAL", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0164bbb4ac7fec7dc491" }, "clave" : "NAFIN", "descripcion" : "INVERSIONES EN NAFIN (RESERVAS ESPECÍFICAS)", "version" : 1 }
+{ "_id" : { "$oid" : "53bb0164bbb4ac7fec7dc492" }, "clave" : "DEUD", "descripcion" : "DEUDORES", "version" : 1 }

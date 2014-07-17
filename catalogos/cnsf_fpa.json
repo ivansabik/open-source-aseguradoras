@@ -1,4 +1,0 @@
-{ "_id" : { "$oid" : "53baff97bbb4ac7fec7dc188" }, "clave" : "N1        ", "descripcion" : "Nivel 1 de FPA", "version" : 1 }
-{ "_id" : { "$oid" : "53baff97bbb4ac7fec7dc189" }, "clave" : "N2        ", "descripcion" : "Nivel 2 de FPA", "version" : 1 }
-{ "_id" : { "$oid" : "53baff97bbb4ac7fec7dc18a" }, "clave" : "N3        ", "descripcion" : "Nivel 1 de FPA", "version" : 1 }
-{ "_id" : { "$oid" : "53baff97bbb4ac7fec7dc18b" }, "clave" : "N4        ", "descripcion" : "Otros fondos propios", "version" : 1 }

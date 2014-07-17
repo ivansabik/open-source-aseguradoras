@@ -1,6 +1,0 @@
-{ "_id" : { "$oid" : "53bb007bbbb4ac7fec7dc45d" }, "clave" : 1, "descripcion" : " CETES    ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb007bbbb4ac7fec7dc45e" }, "clave" : 2, "descripcion" : " PRLV     ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb007bbbb4ac7fec7dc45f" }, "clave" : 3, "descripcion" : " LIBOR    ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb007bbbb4ac7fec7dc460" }, "clave" : 4, "descripcion" : " TIIE     ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb007bbbb4ac7fec7dc461" }, "clave" : 5, "descripcion" : " BREMS    ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb007bbbb4ac7fec7dc462" }, "clave" : 6, "descripcion" : " OTRA     ", "version" : 1 }

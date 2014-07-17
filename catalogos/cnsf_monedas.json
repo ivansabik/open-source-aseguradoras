@@ -1,4 +1,0 @@
-{ "_id" : { "$oid" : "53baff72bbb4ac7fec7dc179" }, "clave" : 0, "nombre" : "TOTAL     ", "descripcion" : "MONEDA TOTAL", "version" : 1 }
-{ "_id" : { "$oid" : "53baff72bbb4ac7fec7dc17a" }, "clave" : 10, "nombre" : "NACIONAL  ", "descripcion" : "MONEDA NACIONAL", "version" : 1 }
-{ "_id" : { "$oid" : "53baff72bbb4ac7fec7dc17b" }, "clave" : 20, "nombre" : "EXTRANJERA", "descripcion" : "MONEDA EXTRANJERA", "version" : 1 }
-{ "_id" : { "$oid" : "53baff72bbb4ac7fec7dc17c" }, "clave" : 30, "nombre" : "INDIZADA  ", "descripcion" : "MONEDA INDIZADA", "version" : 1 }

@@ -1,5 +1,0 @@
-{ "_id" : { "$oid" : "53bb02d9bbb4ac7fec7dc4f8" }, "clave" : "B         ", "descripcion" : " BANCARIO", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02d9bbb4ac7fec7dc4f9" }, "clave" : "E         ", "descripcion" : " EXTRANJERO", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02d9bbb4ac7fec7dc4fa" }, "clave" : "G         ", "descripcion" : " GUBERNAMENTAL", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02d9bbb4ac7fec7dc4fb" }, "clave" : "P         ", "descripcion" : " PRIVADO", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02d9bbb4ac7fec7dc4fc" }, "clave" : "U         ", "descripcion" : " DESCENTRALIZADO", "version" : 1 }

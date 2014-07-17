@@ -1,3 +1,0 @@
-{ "_id" : { "$oid" : "53bb024cbbb4ac7fec7dc4e5" }, "clave" : "DXC", "descripcion" : "Documentos por cobrar", "version" : 1 }
-{ "_id" : { "$oid" : "53bb024cbbb4ac7fec7dc4e6" }, "clave" : "DEFI", "descripcion" : "Deudores por responsabilidad de fianzas", "version" : 1 }
-{ "_id" : { "$oid" : "53bb024cbbb4ac7fec7dc4e7" }, "clave" : "DIV             ", "descripcion" : "Diversos", "version" : 1 }

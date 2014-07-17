@@ -1,8 +1,0 @@
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f0" }, "clave" : 1, "descripcion" : "Cargo de tercero por siniestros", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f1" }, "clave" : 2, "descripcion" : "Préstamos a funcionarios y empleados", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f2" }, "clave" : 3, "descripcion" : "Préstamos a agentes", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f3" }, "clave" : 4, "descripcion" : "Préstamos a ajustadores", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f4" }, "clave" : 5, "descripcion" : "Adeudos de ex-empleados", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f5" }, "clave" : 6, "descripcion" : "Deudores por responsabilidades de fianzas", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f6" }, "clave" : 7, "descripcion" : "Primas por cobrar por operaciones de fianzas", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02bdbbb4ac7fec7dc4f7" }, "clave" : 8, "descripcion" : "Otros", "version" : 1 }

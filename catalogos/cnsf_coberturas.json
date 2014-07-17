@@ -1,3 +1,0 @@
-{ "_id" : { "$oid" : "53bb01b6bbb4ac7fec7dc498" }, "clave" : 13, "descripcion" : "MÉTODO SIMPLE", "version" : 1 }
-{ "_id" : { "$oid" : "53bb01b6bbb4ac7fec7dc499" }, "clave" : 23, "descripcion" : "MÉTODO INTEGRAL", "version" : 1 }
-{ "_id" : { "$oid" : "53bb01b6bbb4ac7fec7dc49a" }, "clave" : 33, "descripcion" : "NO APLICA", "version" : 1 }
