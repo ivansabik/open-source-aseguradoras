@@ -8,13 +8,13 @@ from itertools import chain
 tiempo_inicio = time.time()
 
 print '---------- Pólizas ----------'
-polizas = pd.read_csv('polizas.csv')
+polizas = pd.read_csv('archivos-texto/polizas.csv')
 polizas = polizas.set_index('num_poliza')
 print polizas.keys()
 print polizas.head()
 
 print '---------- Tabla Mortalidad ----------'
-mortalidad = pd.read_csv('tabla_mortalidad.csv')
+mortalidad = pd.read_csv('archivos-texto/tabla_mortalidad.csv')
 mortalidad = mortalidad.set_index('edad')
 mortalidad['px'] = 1 - mortalidad['qx']
 mortalidad['pxqx'] = mortalidad['px'] * mortalidad['qx']

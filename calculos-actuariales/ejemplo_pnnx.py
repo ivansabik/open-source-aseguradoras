@@ -7,7 +7,7 @@ import time
 tiempo_inicio = time.time()
 
 # Lee tabla de mortalidad, salta header de csv
-archivo_csv = open('tabla_mortalidad.csv')
+archivo_csv = open('archivos-texto/tabla_mortalidad.csv')
 reader = csv.reader(archivo_csv)
 tabla_mortalidad = {}
 reader.next()
@@ -15,7 +15,7 @@ reader.next()
 # Lee pólizas, salta header de csv
 for row in reader:
     tabla_mortalidad[ast.literal_eval(row[0])] = ast.literal_eval(row[1])
-archivo_csv = open('polizas.csv')
+archivo_csv = open('archivos-texto/polizas.csv')
 reader = csv.reader(archivo_csv)
 reader.next()
 
