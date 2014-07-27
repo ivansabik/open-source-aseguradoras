@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "53bb01a3bbb4ac7fec7dc493" }, "clave" : 1, "descripcion" : "Nuevo", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01a3bbb4ac7fec7dc494" }, "clave" : 2, "descripcion" : "NULL", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01a3bbb4ac7fec7dc495" }, "clave" : 3, "descripcion" : "Cancelado", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01a3bbb4ac7fec7dc496" }, "clave" : 4, "descripcion" : "Vigente", "version" : 1 }
+{ "_id" : { "$oid" : "53bb01a3bbb4ac7fec7dc497" }, "clave" : 5, "descripcion" : "Prorrogado", "version" : 1 }

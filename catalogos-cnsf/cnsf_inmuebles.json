@@ -1,7 +1,0 @@
-{ "_id" : { "$oid" : "53bafe75bbb4ac7fec7db88f" }, "clave" : 1, "descripcion" : "Inmuebles", "version" : 1 }
-{ "_id" : { "$oid" : "53bafe75bbb4ac7fec7db890" }, "clave" : 2, "descripcion" : "Inmuebles en Construcción ", "version" : 1 }
-{ "_id" : { "$oid" : "53bafe75bbb4ac7fec7db891" }, "clave" : 3, "descripcion" : "Inmuebles Adquiridos en Arrendamiento Financiero", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02fcbbb4ac7fec7dc500" }, "clave" : 1, "descripcion" : "Urbano ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02fcbbb4ac7fec7dc501" }, "clave" : 2, "descripcion" : "Comercial ", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02fcbbb4ac7fec7dc502" }, "clave" : 3, "descripcion" : "Mixta", "version" : 1 }
-{ "_id" : { "$oid" : "53bb02fcbbb4ac7fec7dc503" }, "clave" : 4, "descripcion" : "Terreno ", "version" : 1 }

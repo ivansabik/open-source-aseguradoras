@@ -1,0 +1,9 @@
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db70d" }, "calificacion" : "B         ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db70e" }, "calificacion" : "F1        ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db70f" }, "calificacion" : "F1(mex)   ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db710" }, "calificacion" : "F1+       ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db711" }, "calificacion" : "F1+(mex)  ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db712" }, "calificacion" : "F2        ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db713" }, "calificacion" : "F2(mex)   ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db714" }, "calificacion" : "F3        ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
+{ "_id" : { "$oid" : "53bafe3bbbb4ac7fec7db715" }, "calificacion" : "F3(mex)   ", "clave" : "FI        ", "calificadora" : "FITCH     ", "version" : 1 }
