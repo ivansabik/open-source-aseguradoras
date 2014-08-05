@@ -1,2 +1,0 @@
-{ "_id" : { "$oid" : "53bb0319bbb4ac7fec7dc507" }, "clave" : "CP        ", "descripcion" : "CAPITAL PROTEGIDO", "version" : 1 }
-{ "_id" : { "$oid" : "53bb0319bbb4ac7fec7dc508" }, "clave" : "NP        ", "descripcion" : "CAPITAL NO PROTEGIDO", "version" : 1 }
