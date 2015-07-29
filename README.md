@@ -13,6 +13,14 @@ Python para cálculos actuariales y estadísticas
 
 ### MapReduce
 
-cat deudores.txt | ./mapper_deudores_prima.py | sort | ./reducer_deudores_prima.py 
+En consola
+
+```cat deudores.txt | ./mapper_deudores_prima.py | sort | ./reducer_deudores_prima.py```
+
+En pig modo local
+
+```pig -x local deudores.pig```
+
+
 
 
