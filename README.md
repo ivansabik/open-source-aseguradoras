@@ -20,7 +20,3 @@ En consola
 En pig modo local
 
 ```pig -x local deudores.pig```
-
-
-
-

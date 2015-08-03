@@ -1,6 +1,5 @@
-#!/usr/bin/php -q
 <?php
-define('NUM_REGISTROS', 5000000);
+define("NUM_REGISTROS", 10000);
 
 $plazos = array(1, 5, 10, 15, 20);
 $edades = range(12, 65);

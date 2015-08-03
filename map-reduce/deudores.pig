@@ -9,4 +9,5 @@ deudores = FILTER deudores BY nivel_1 == 140 AND
 
 grupos_deudores = GROUP deudores BY (cve_ramo, moneda);
 totales_ramo_moneda = FOREACH grupos_deudores GENERATE group, SUM(deudores.primas_por_cobrar_total);
+
 DUMP totales_ramo_moneda;
