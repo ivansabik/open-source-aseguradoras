@@ -34,18 +34,15 @@ csv_sonr = csv_sonr.apply(llena_triangulo, axis=1)
 
 #Se obtienen los factores de monto siniestro / prima emitida
 
-factores_sonr = copy.deepcopy(sonr)
-factores_sonr.reset_index(level=0, inplace=True)
-
-def llena_factores(factores_sonr):
+def llena_factores(sonr):
     for i in range(1, 8):
         indice_s = 's' + str(i)
-        if not pd.isnull(factores_sonr[indice_s]):
-            anio_emision = factores_sonr['anio_emision']
+        if not pd.isnull(sonr[indice_s]):
+            anio_emision = sonr['anio_emision']
             factores_sonr[indice_s] = sonr[indice_s].loc[anio_emision] / sonr['prima_emitida'].loc[anio_emision]
     return factores_sonr
-factores_sonr = factores_sonr.apply(llena_factores, axis=1)
-factores_sonr = factores_sonr.set_index('anio_emision')
+sonr = sonr.apply(llena_factores, axis=1)
+sonr = sonr.set_index('anio_emision')
 
 factores = pd.DataFrame({'limite': ['max', 'min']})
 for anio_desarrollo in range(1,8):
@@ -54,8 +51,8 @@ factores = factores.set_index('limite')
     
 for i in range(1, 8):
     indice_s = 's' + str(i)
-    factores.loc['max'][indice_s] = factores_sonr[indice_s].max() * 1.1 
-    factores.loc['min'][indice_s] = factores_sonr[indice_s].min() * 0.9
+    factores.loc['max'][indice_s] = sonr[indice_s].max() * 1.1 
+    factores.loc['min'][indice_s] = sonr[indice_s].min() * 0.9
     
     
 # Se simulan los siniestros para las proyecciones (parte inferior del triangulo)
