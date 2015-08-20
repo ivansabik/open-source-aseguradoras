@@ -1,11 +1,6 @@
-# -*- coding: utf-8 -*-
-
 def pnnx(edad, sa, plazo, tabla_mortalidad):
-    x = edad
-    n = plazo
-    i = 0.05
-    suma_numerador = 0.0
-    suma_denominador = 0.0
+    x, n, i = edad,plazo,0.05
+    suma_numerador, suma_denominador = 0.0, 0.0
     for t in range(0, n):
         vt_mas_1 = pow(1 + i, -(t + 1))
         qx_mas_t = tabla_mortalidad[x + t]
