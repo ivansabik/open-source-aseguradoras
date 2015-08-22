@@ -8,9 +8,9 @@ siniestros['EDAD'] = base_salud['EDAD']
 siniestros['DIAGNOST1'] = base_salud['DIAGNOST1']
 siniestros['TOTAL_MM'], siniestros['TOTAL_ES_H'] = 0, 0
 for i in range(0,10):
-    siniestros['TOTAL_MM'] = siniestros['TOTAL_MM'] + base_salud['MMED_D' + str(i)]
+    siniestros['TOTAL_MM'] += base_salud['MMED_D' + str(i)]
 for i in range(1, 4):
-	siniestros['TOTAL_ES_H'] = siniestros['TOTAL_ES_H'] + base_salud['DIAS_ES_H' + str(i)]
+	siniestros['TOTAL_ES_H'] += base_salud['DIAS_ES_H' + str(i)]
 
 def sexo_bool(registro):
 	if registro['SEXO']  == 'M':
